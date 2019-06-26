@@ -1,0 +1,58 @@
+/* Responsive code */
+
+.navbar {
+  height: 5.27vw;
+  z-index: 99;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: sticky;
+  top: 0;
+  left: 0;
+  font-size: 1.3vw;
+  font-weight: 100;
+  color: #19647e;
+  background: white;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -16.21vw;
+}
+
+.logo img {
+  height: 4.55vw;
+  width: auto;
+}
+
+.tabContent {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 5.27vw;
+}
+
+.tabContent ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabContent ul li {
+  margin-right: 1.3vw;
+  cursor: pointer;
+}
+
+.button {
+  border: none;
+  border-radius: 50px;
+  background: #feda4d;
+  height: 2.34vw;
+  width: 10.93vw;
+  color: #19647e;
+  font-size: 1.3vw;
+  font-weight: 100;
+  cursor: pointer;
+}

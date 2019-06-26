@@ -1,0 +1,39 @@
+.footer {
+  height: 26.04vw;
+  z-index: 99;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  font-size: 1.3vw;
+  font-weight: 100;
+  color: #19647e;
+  background-image: url(../../assets/images/fundos/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: 13.02vw 19.53vw 13.02vw 13.02vw;
+  column-gap: 6.51vw;
+  margin: 16vw 11.45vw 0 11.45vw;
+  font-size: 1vw;
+  font-weight: 100;
+}
+
+.footerContent ul li:first-child {
+  margin-bottom: 1.67vw;
+}
+
+.socialnetwork ul {
+  display: flex;
+}
+
+.socialnetwork li:first-child {
+  margin-right: 1.95vw;
+}
+
+.socialnetwork ul li img {
+  width: 1.5vw;
+  height: 1.5vw;
+}
